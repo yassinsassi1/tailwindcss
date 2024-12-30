@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto flex justify-between items-center p-5">
+      <h1 class="text-2xl font-bold">Yassin</h1>
+      <nav class="space-x-4">
+        <a href="#home" class="text-gray-700 hover:text-blue-500">Home</a>
+        <a href="#projects" class="text-gray-700 hover:text-blue-500">Projects</a>
+        <a href="#contact" class="text-gray-700 hover:text-blue-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="bg-cover bg-center h-screen flex items-center justify-center" style="background-image: url('https://www.espacemanager.com/sites/default/files/gomycode_hack4future.png');">
+    <div class="text-center text-white">
+      <h2 class="text-4xl md:text-6xl font-bold">Welcome to My Portfolio</h2>
+      <p class="mt-4 text-lg md:text-xl">Showcasing my skills and projects</p>
+    </div>
+  </section>
+
+  <section id="skills" class="container mx-auto py-16">
+    <h2 class="text-3xl font-bold text-center mb-10">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="bg-white p-5 shadow-md text-center">HTML</div>
+      <div class="bg-white p-5 shadow-md text-center">CSS</div>
+      <div class="bg-white p-5 shadow-md text-center">JavaScript</div>
+      <div class="bg-white p-5 shadow-md text-center">Tailwind CSS</div>
+    </div>
+  </section>
+
+  <section id="projects" class="bg-gray-50 py-16">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white shadow-md overflow-hidden rounded-md">
+          <img src="C:\Users\yassinsassi\Desktop\gomycode\Project\PROJECT 1\LOGO\Screenshot 2024-12-29 153157.png" alt="Project 1" class="w-full">
+          <div class="p-5">
+            <h3 class="text-xl font-bold">Project 1</h3>
+            <p class="text-gray-700">Description of project 1.</p>
+          </div>
+        </div>
+        <div class="bg-white shadow-md overflow-hidden rounded-md">
+          <img src="C:\Users\yassinsassi\Desktop\gomycode\Project\PROJECT 1\LOGO\Screenshot 2024-12-29 154531.png" alt="Project 2" class="w-full">
+          <div class="p-5">
+            <h3 class="text-xl font-bold">Project 2</h3>
+            <p class="text-gray-700">Description of project 2.</p>
+          </div>
+        </div>
+        <div class="bg-white shadow-md overflow-hidden rounded-md">
+          <img src="C:\Users\yassinsassi\Desktop\gomycode\Project\PROJECT 1\LOGO\Screenshot 2024-12-29 154212.png" alt="Project 3" class="w-full">
+          <div class="p-5">
+            <h3 class="text-xl font-bold">Project 3</h3>
+            <p class="text-gray-700">Description of project 3.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container mx-auto py-16">
+    <h2 class="text-3xl font-bold text-center mb-10">Contact Me</h2>
+    <form class="max-w-lg mx-auto bg-white p-6 shadow-md rounded-md space-y-4">
+      <div>
+        <label for="name" class="block text-gray-700">Name</label>
+        <input type="text" id="name" class="w-full mt-2 p-3 border rounded-md" placeholder="Your Name">
+      </div>
+      <div>
+        <label for="email" class="block text-gray-700">Email</label>
+        <input type="email" id="email" class="w-full mt-2 p-3 border rounded-md" placeholder="Your Email">
+      </div>
+      <div>
+        <label for="message" class="block text-gray-700">Message</label>
+        <textarea id="message" class="w-full mt-2 p-3 border rounded-md" rows="4" placeholder="Your Message"></textarea>
+      </div>
+      <button type="submit" class="w-full bg-blue-500 text-white py-3 rounded-md hover:bg-blue-600">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center space-y-4">
+      <div class="space-x-4">
+        <a href="#" class="text-gray-400 hover:text-white">Facebook</a>
+        <a href="#" class="text-gray-400 hover:text-white">Twitter</a>
+        <a href="#" class="text-gray-400 hover:text-white">LinkedIn</a>
+      </div>
+      <p>&copy; 2024</p>
+    </div>
+  </footer>
+
+</body>
+</html>
